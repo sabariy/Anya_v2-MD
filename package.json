@@ -6,8 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "start2": "node index",
-    "start": "pm2 start index.js --attach --name anya-v2 --namespace production",
-    "stop": "pm2 stop anya-v2"
+    "start": "npm start index.js",
+    "stop": "npm stop anya-v2"
   },
   "keywords": [
     "termux",
@@ -63,7 +63,6 @@
     "os": "^0.1.2",
     "pastebin-js": "^1.0.6",
     "path": "^0.12.7",
-    "pm2": "^5.4.2",
     "request": "^2.88.2",
     "util": "^0.12.5",
     "url": "^0.11.4",
